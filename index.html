@@ -58,8 +58,12 @@
 <p>I couldn't find a free API in Japan that allowed looking up postal codes to get addresses, so <a href="https://github.com/btsai/japan_postal_code">I wrote a parser</a> to generate key-value lookup hashes based on the text files that the <a href="http://www.post.japanpost.jp/zipcode">Japan Post Office issues regularly</a>.</p>
 <hr/>
 
+<h3>Faster Sass Compiling</h3>
+<p>If you're using Sass for your css, you'll soon discover that the Rails asset pipeline comes to a grinding halt when your Sass library grows. It can't helped - the Sass compiler is Ruby based. <a href="http://en.wikipedia.org/wiki/Hampton_Catlin">Hampton Catlin</a> (original creator of Sass) has worked with others to create a C++ port of the Sass compiler which is magnitudes of order faster. If you combine this with Live Guard, you get lightning fast compiling with automatic reloading in the browser without refreshing the page. <a href="https://github.com/btsai/foundation_libsass_test">I put together a base Rails project</a> that combines all of these elements so you can see how the parts work together before you incorporate it into your own project.</p>
+<hr/>
+
 <h3>Font-Awesome 4 Icon Search</h3>
-<p>I got tired of squinting and trying to figure out if the wonderful Font-Awesome icons I was searching for was the right one, so I added a bit of CSS and JS to make it easier to find the right icon for me. <a href="font_awesome4_cheatsheet/index.html">Give if a spin.</a> or <a href="https://github.com/btsai/font_awesome4_cheatsheet">view it on github</a>.</p>
+<p>I got tired of squinting and trying to figure out if the wonderful Font-Awesome icons I was searching for was the right one, so I added a bit of CSS and JS to make it easier to find the right icon for me. <a href="font_awesome4_cheatsheet/index.html">Give if a spin</a> or <a href="https://github.com/btsai/font_awesome4_cheatsheet">view it on github</a>.</p>
 <hr/>
 
 
